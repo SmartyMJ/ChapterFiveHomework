@@ -22,7 +22,7 @@ public class Morning extends JFrame
     super("Morning");
     
     rooster = new EasySound("Assets/roost.wav");
-    //rooster.play();
+    rooster.play();
         	
 	Timer clock = new Timer(5000, this); 
 	clock.start();
@@ -33,8 +33,7 @@ public class Morning extends JFrame
 
   public void actionPerformed(ActionEvent e)
   {
-    //time++;
-    //Morning morningsound = new Morning();
+    
     rooster.play();
   
   }
