@@ -23,13 +23,11 @@ or a JavaFX application class must extend javafx.application.Application"
 
 
 (eleven) 11. a) The constructor that creates the title bar message is not referenced and called. The code compiles and runs, 
-                but the title bar has no message.
-
-             b) Yes, the program compilese. It does not fill out the window, leaving it blank. The "void" makes the compiler think 
-                that "HelloGui()" is a method and not a contructor. The default constructor is used in place of the original 
+                but the title bar has no message.     
+             b) Yes, the program compiles. It does not fill out the window, leaving it blank. The "void" makes the compiler think                 that "HelloGui()" is a method and not a contructor. The default constructor is used in place of the original 
                 "HelloGui()" constructor. This leaves the window blank.
 
 
-(twelve) 12. a) See Morning.java
-             b) See Morning.java
+(twelve) 12. a) See Morning.java     
+             b) See Morning.java     
              c) See MorningMoo.java
